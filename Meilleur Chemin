@@ -1,0 +1,117 @@
+digraph "Meilleur Chemin" {
+	Laurier -> "Mont-Royal" [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Mont-Royal" [fillcolor="#ffd9d9" style=filled]
+	Laurier -> Rosemont
+	"Mont-Royal" -> Sherbrooke [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Sherbrooke [fillcolor="#ffd9d9" style=filled]
+	Rosemont -> Beaubien
+	Sherbrooke -> "Berri-UQAM" [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Berri-UQAM" [fillcolor="#ffd9d9" style=filled]
+	Beaubien -> "Jean-Talon"
+	"Berri-UQAM" -> "Saint-Laurent" [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Saint-Laurent" [fillcolor="#ffd9d9" style=filled]
+	"Berri-UQAM" -> Beaudry
+	"Berri-UQAM" -> "Champ-de-Mars"
+	"Berri-UQAM" -> "Jean-Drapeau"
+	"Saint-Laurent" -> "Place-des-Arts" [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Place-des-Arts" [fillcolor="#ffd9d9" style=filled]
+	Beaudry -> Papineau
+	"Jean-Talon" -> Jarry
+	"Jean-Talon" -> "De Castelnau"
+	"Jean-Talon" -> Fabre
+	"Place-des-Arts" -> McGill [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	McGill [fillcolor="#ffd9d9" style=filled]
+	"Champ-de-Mars" -> "Place-d'Armes"
+	McGill -> Peel [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Peel [fillcolor="#ffd9d9" style=filled]
+	Papineau -> Frontenac
+	"Place-d'Armes" -> "Square-Victoria"
+	"De Castelnau" -> Parc
+	Fabre -> "D'Iberville"
+	"Jean-Drapeau" -> Longueuil
+	Peel -> "Guy-Concordia" [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Guy-Concordia" [fillcolor="#ffd9d9" style=filled]
+	"Square-Victoria" -> Bonaventure
+	Jarry -> Cremazie
+	Parc -> Acadie
+	"Guy-Concordia" -> Atwater [label="   1 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Atwater [fillcolor="#ffd9d9" style=filled]
+	Frontenac -> Prefontaine
+	Bonaventure -> "Lucien-L'Allier"
+	"D'Iberville" -> "Saint-Michel"
+	Atwater -> "Lionel-Groulx" [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Lionel-Groulx" [fillcolor="#ffd9d9" style=filled]
+	"Lucien-L'Allier" -> "Georges-Vanier"
+	Cremazie -> Sauve
+	Prefontaine -> Joliette
+	Acadie -> Outremont
+	"Lionel-Groulx" -> Charlevoix
+	"Lionel-Groulx" -> "Place-Saint-Henri" [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Place-Saint-Henri" [fillcolor="#ffd9d9" style=filled]
+	Sauve -> "Henri-Bourassa"
+	Joliette -> "Pie-IX"
+	Charlevoix -> LaSalle
+	"Place-Saint-Henri" -> Vendome [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Vendome [fillcolor="#ffd9d9" style=filled]
+	Outremont -> "Edouard-Montpetit"
+	"Pie-IX" -> Viau
+	"Henri-Bourassa" -> Cartier
+	LaSalle -> "De l'Eglise"
+	Vendome -> "Villa-Maria" [label="   3 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Villa-Maria" [fillcolor="#ffd9d9" style=filled]
+	Viau -> Assomption
+	"Edouard-Montpetit" -> "Universite-de-Montreal"
+	"De l'Eglise" -> Verdun
+	Cartier -> "De la Concorde"
+	"Villa-Maria" -> Snowdon [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Snowdon [fillcolor="#ffd9d9" style=filled]
+	Verdun -> Jolicoeur
+	Assomption -> Cadillac
+	"Universite-de-Montreal" -> "Cote-des-Neiges"
+	Snowdon -> "Cote-Sainte-Catherine" [label="   3 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	"Cote-Sainte-Catherine" [fillcolor="#ffd9d9" style=filled]
+	"De la Concorde" -> Montmorency
+	Jolicoeur -> Monk
+	Cadillac -> Langelier
+	Monk -> Angrignon
+	Langelier -> Radisson
+	"Cote-Sainte-Catherine" -> Plamondon [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Plamondon [fillcolor="#ffd9d9" style=filled]
+	Plamondon -> Namur [label="   2 minutes" color=red fontcolor=red penwidth=3]
+	Laurier [fillcolor="#ffd9d9" style=filled]
+	Namur [fillcolor="#ffd9d9" style=filled]
+	Radisson -> "Honore-Beaugrand"
+	Namur -> "De la Savane"
+	"De la Savane" -> "Du College"
+	"Du College" -> "Cote-Vertu"
+	Laurier -> Rosemont [label=BFS color=blue fontcolor=blue penwidth=3]
+	Rosemont -> Beaubien [label=BFS color=blue fontcolor=blue penwidth=3]
+	Beaubien -> "Jean-Talon" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"Jean-Talon" -> "De Castelnau" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"De Castelnau" -> Parc [label=BFS color=blue fontcolor=blue penwidth=3]
+	Parc -> Acadie [label=BFS color=blue fontcolor=blue penwidth=3]
+	Acadie -> Outremont [label=BFS color=blue fontcolor=blue penwidth=3]
+	Outremont -> "Edouard-Montpetit" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"Edouard-Montpetit" -> "Universite-de-Montreal" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"Universite-de-Montreal" -> "Cote-des-Neiges" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"Cote-des-Neiges" -> Snowdon [label=BFS color=blue fontcolor=blue penwidth=3]
+	Snowdon -> "Cote-Sainte-Catherine" [label=BFS color=blue fontcolor=blue penwidth=3]
+	"Cote-Sainte-Catherine" -> Plamondon [label=BFS color=blue fontcolor=blue penwidth=3]
+	Plamondon -> Namur [label=BFS color=blue fontcolor=blue penwidth=3]
+}
