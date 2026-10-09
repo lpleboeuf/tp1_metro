@@ -1,69 +1,69 @@
 digraph "Stations_métro" {
-	Langelier -> Radisson
-	"Honore-Beaugrand" -> Radisson
-	Cadillac -> Langelier
-	Assomption -> Cadillac
-	Viau -> Assomption
-	"Pie-IX" -> Viau
-	Joliette -> "Pie-IX"
-	Prefontaine -> Joliette
-	Frontenac -> Prefontaine
-	Papineau -> Frontenac
-	Beaudry -> Papineau
-	"Berri-UQAM" -> Beaudry
-	"Saint-Laurent" -> "Berri-UQAM"
-	"Champ-de-Mars" -> "Berri-UQAM"
-	Sherbrooke -> "Berri-UQAM"
-	"Jean-Drapeau" -> "Berri-UQAM"
-	"Place-des-Arts" -> "Saint-Laurent"
-	"Place-d'Armes" -> "Champ-de-Mars"
-	"Mont-Royal" -> Sherbrooke
-	Longueuil -> "Jean-Drapeau"
-	McGill -> "Place-des-Arts"
-	"Square-Victoria" -> "Place-d'Armes"
-	Laurier -> "Mont-Royal"
-	Peel -> McGill
-	Bonaventure -> "Square-Victoria"
+	"Mont-Royal" -> Laurier
 	Rosemont -> Laurier
-	"Guy-Concordia" -> Peel
-	"Lucien-L'Allier" -> Bonaventure
+	Sherbrooke -> "Mont-Royal"
 	Beaubien -> Rosemont
-	Atwater -> "Guy-Concordia"
-	"Georges-Vanier" -> "Lucien-L'Allier"
+	"Berri-UQAM" -> Sherbrooke
 	"Jean-Talon" -> Beaubien
-	"Lionel-Groulx" -> Atwater
+	"Saint-Laurent" -> "Berri-UQAM"
+	Beaudry -> "Berri-UQAM"
+	"Champ-de-Mars" -> "Berri-UQAM"
+	"Jean-Drapeau" -> "Berri-UQAM"
 	Jarry -> "Jean-Talon"
 	"De Castelnau" -> "Jean-Talon"
 	Fabre -> "Jean-Talon"
-	Charlevoix -> "Lionel-Groulx"
-	"Place-Saint-Henri" -> "Lionel-Groulx"
+	"Place-des-Arts" -> "Saint-Laurent"
+	Papineau -> Beaudry
+	"Place-d'Armes" -> "Champ-de-Mars"
+	Longueuil -> "Jean-Drapeau"
 	Cremazie -> Jarry
 	Parc -> "De Castelnau"
 	"D'Iberville" -> Fabre
-	LaSalle -> Charlevoix
-	Vendome -> "Place-Saint-Henri"
+	McGill -> "Place-des-Arts"
+	Frontenac -> Papineau
+	"Square-Victoria" -> "Place-d'Armes"
 	Sauve -> Cremazie
 	Acadie -> Parc
 	"Saint-Michel" -> "D'Iberville"
-	"De l'Eglise" -> LaSalle
-	"Villa-Maria" -> Vendome
+	Peel -> McGill
+	Prefontaine -> Frontenac
+	Bonaventure -> "Square-Victoria"
 	"Henri-Bourassa" -> Sauve
 	Outremont -> Acadie
-	Verdun -> "De l'Eglise"
-	Snowdon -> "Villa-Maria"
+	"Guy-Concordia" -> Peel
+	Joliette -> Prefontaine
+	"Lucien-L'Allier" -> Bonaventure
 	Cartier -> "Henri-Bourassa"
 	"Edouard-Montpetit" -> Outremont
-	Jolicoeur -> Verdun
-	"Cote-Sainte-Catherine" -> Snowdon
-	"Cote-des-Neiges" -> Snowdon
+	Atwater -> "Guy-Concordia"
+	"Pie-IX" -> Joliette
+	"Georges-Vanier" -> "Lucien-L'Allier"
 	"De la Concorde" -> Cartier
 	"Universite-de-Montreal" -> "Edouard-Montpetit"
-	Monk -> Jolicoeur
-	Plamondon -> "Cote-Sainte-Catherine"
+	"Lionel-Groulx" -> Atwater
+	Viau -> "Pie-IX"
 	Montmorency -> "De la Concorde"
-	Angrignon -> Monk
+	"Cote-des-Neiges" -> "Universite-de-Montreal"
+	Charlevoix -> "Lionel-Groulx"
+	"Place-Saint-Henri" -> "Lionel-Groulx"
+	Assomption -> Viau
+	Snowdon -> "Cote-des-Neiges"
+	LaSalle -> Charlevoix
+	Vendome -> "Place-Saint-Henri"
+	Cadillac -> Assomption
+	"Cote-Sainte-Catherine" -> Snowdon
+	"Villa-Maria" -> Snowdon
+	"De l'Eglise" -> LaSalle
+	Langelier -> Cadillac
+	Plamondon -> "Cote-Sainte-Catherine"
+	Verdun -> "De l'Eglise"
+	Radisson -> Langelier
 	Namur -> Plamondon
+	Jolicoeur -> Verdun
+	"Honore-Beaugrand" -> Radisson
 	"De la Savane" -> Namur
+	Monk -> Jolicoeur
 	"Du College" -> "De la Savane"
+	Angrignon -> Monk
 	"Cote-Vertu" -> "Du College"
 }
